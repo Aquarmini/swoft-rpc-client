@@ -1,0 +1,36 @@
+{
+    "name": "limingxinleo/swoft-rpc-client",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swoole",
+        "swoft",
+        "db",
+        "model"
+    ],
+    "description": "其他框架调用Swoft RPC服务的客户端",
+    "authors": [
+        {
+            "name": "李铭昕",
+            "email": "715557344@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Swoftx\\Rpc\\Client": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SwoftTest\\Rpc\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "swoft/swoole-ide-helper": "dev-master",
+        "phpunit/phpunit": "^5.7"
+    }
+}
