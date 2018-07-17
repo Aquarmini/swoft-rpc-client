@@ -4,7 +4,7 @@ $header = <<<'EOF'
 Swoft Entity Cache
 
 @author   limx <715557344@qq.com>
-@link     https://github.com/limingxinleo/swoft-entity-cache
+@link     https://github.com/limingxinleo/swoft-rpc-client
 EOF;
 
 return PhpCsFixer\Config::create()

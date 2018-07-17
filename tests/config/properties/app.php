@@ -9,10 +9,8 @@
  */
 
 $beanScan = [
-    'SwoftTest\\Db\\Testing' => BASE_PATH . '/Testing',
+    'SwoftTest\\Rpc\\Testing' => BASE_PATH . '/Testing',
 ];
-
-$beanScan = array_merge($beanScan, \Swoftx\Db\Entity\Helper\BeanHelper::getEntityCacheBeanScan());
 
 return [
     'version' => '1.0',

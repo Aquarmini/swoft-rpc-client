@@ -3,7 +3,7 @@
  * Swoft Entity Cache
  *
  * @author   limx <715557344@qq.com>
- * @link     https://github.com/limingxinleo/swoft-entity-cache
+ * @link     https://github.com/limingxinleo/swoft-rpc-client
  */
 namespace SwoftTest\Rpc\Cases;
 
@@ -16,6 +16,10 @@ use PHPUnit\Framework\TestCase;
  */
 abstract class AbstractTestCase extends TestCase
 {
+    protected $ip = '127.0.0.1';
+
+    protected $port = 8099;
+
     protected function tearDown()
     {
         parent::tearDown();
