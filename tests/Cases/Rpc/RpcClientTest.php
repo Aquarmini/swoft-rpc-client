@@ -8,6 +8,7 @@
 namespace SwoftTest\Rpc\Cases\Rpc;
 
 use Swoft\Rpc\Client\Exception\RpcClientException;
+use SwoftTest\Rpc\Testing\Clients\DemoService;
 use SwoftTest\Rpc\Testing\Lib\DemoServiceInterface;
 use SwoftTest\Rpc\Cases\AbstractTestCase;
 
@@ -16,6 +17,12 @@ class RpcClientTest extends AbstractTestCase
     public function testExample()
     {
         $this->assertTrue(true);
+    }
+
+    public function testVersion()
+    {
+        $client = DemoService::getInstance();
+        $this->assertEquals('1.0.0', $client->version());
     }
 
     public function testNotSwoftRequest()

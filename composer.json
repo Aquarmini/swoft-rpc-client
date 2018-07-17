@@ -27,7 +27,8 @@
         }
     },
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "limingxinleo/x-trait-common": "^1.1"
     },
     "require-dev": {
         "swoft/swoole-ide-helper": "dev-master",
