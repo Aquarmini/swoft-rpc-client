@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Swoftx\\Rpc\\Client": "src/"
+            "Swoftx\\Rpc\\Client\\": "src/"
         }
     },
     "autoload-dev": {
@@ -31,6 +31,7 @@
     },
     "require-dev": {
         "swoft/swoole-ide-helper": "dev-master",
-        "phpunit/phpunit": "^5.7"
+        "phpunit/phpunit": "^5.7",
+        "swoft/rpc-server": "^1.0"
     }
 }
